@@ -2,13 +2,18 @@ package Esercio_1;
 
 public class Rettangolo {
 
-    public int base;
-    public int altezza;
+    private int base;
+    private int altezza;
 
     public Rettangolo(int base, int altezza) {
         this.base = base;
         this.altezza = altezza;
     }
+
+    public void setBase(int base) { this.base = base; }
+    public void setAltezza(int altezza) { this.altezza = altezza; }
+    public int getBase() { return base; }
+    public int getAltezza() { return altezza; }
 
     public static void stampaRettangolo(int base, int altezza) {
         int perimetro = ( base + altezza) * 2 ;
