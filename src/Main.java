@@ -26,7 +26,7 @@ public class Main {
         Rettangolo t2 = new Rettangolo(base2, altezza2);
         Rettangolo.stampaRettangolo(t1.getBase(), t1.getAltezza());
         Rettangolo.stampaRettangolo(t2.getBase(), t2.getAltezza());
-        Rettangolo.stampaDueRettangoli(t1.getBase(), t1.getAltezza(), t2.getBase(), t2.getAltezza());
+        Rettangolo.stampaDueRettangoli(t1, t2);
 
          //es2
 
